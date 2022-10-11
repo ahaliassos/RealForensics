@@ -1,4 +1,5 @@
 # RealForensics
+![Overview](overview.png)
 ## Introduction
 We provide code for the reproduction of the main results in [Leveraging Real Talking Faces via Self-Supervision for Robust Forgery Detection](https://arxiv.org/abs/2201.07131). Our implementation is based on 
 [PyTorch Lightning](https://www.pytorchlightning.ai/). 
