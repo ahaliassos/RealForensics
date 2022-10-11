@@ -1,0 +1,11 @@
+random_crop_dim: 88
+resize_dim: 88
+random_erasing_prob: 0.0
+random_erasing_scale:
+  - 0.02
+  - 0.33
+name: mouth
+video_dir: cropped_faces
+train_csv: train.csv
+val_csv: val.csv
+test_csv: test.csv

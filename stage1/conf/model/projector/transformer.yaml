@@ -1,0 +1,12 @@
+_target_: models.transformer.TransformerEncoder
+num_frames: ${data.num_frames}
+out_dim: ${model.projection_size}
+dim: 512
+heads: 8
+mlp_dim: 2048
+depth: 1
+dropout: 0
+use_mlp_head: True
+norm: bn
+final_bn: True
+transpose: True

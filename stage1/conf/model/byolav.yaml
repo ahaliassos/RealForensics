@@ -1,0 +1,16 @@
+defaults:
+  - visual_backbone: csn_r101
+  - audio_backbone: 2dresnet
+  - projector: linear
+  - predictor: transformer
+ssl_method: byolav
+obj:
+  _target_: models.byol_av.BYOLAV
+projection_size: 256
+use_predictor: True
+visual_beta_base: 0.999
+audio_beta_base: 0.999
+use_global: False
+framewise: True
+use_shuffle_bn: False
+sync_batchnorm: True

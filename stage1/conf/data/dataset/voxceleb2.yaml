@@ -1,0 +1,9 @@
+defaults:
+  - root: default
+name: VoxCeleb2
+n_classes:
+train_len: 1091724
+sample_rate: 16000
+fps: 25
+limit_val_batches: 0.0
+multiple_trainloader_mode: min_size

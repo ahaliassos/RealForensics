@@ -1,0 +1,3 @@
+monitor: acc_val_audio_epoch
+mode: max
+dirpath:

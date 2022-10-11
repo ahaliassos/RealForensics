@@ -1,0 +1,2 @@
+_target_: models.mlps.LinearProjector
+out_dim: ${model.projection_size}

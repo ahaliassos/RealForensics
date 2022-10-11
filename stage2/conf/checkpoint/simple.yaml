@@ -1,0 +1,3 @@
+_target_: pytorch_lightning.callbacks.ModelCheckpoint
+every_n_epochs: 0
+save_last: False

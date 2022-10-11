@@ -1,0 +1,5 @@
+obj:
+  _target_: models.backbones.csn.csn_temporal_no_head
+  model_depth: 101
+  input_channel: ${data.channel.in_video_channels}
+output_dim: 2048

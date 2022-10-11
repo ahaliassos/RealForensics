@@ -1,0 +1,2 @@
+_target_: models.mlps.MLPProjectorGlobal
+out_dim: ${model.projection_size}

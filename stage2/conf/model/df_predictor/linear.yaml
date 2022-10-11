@@ -1,0 +1,3 @@
+_target_: models.linear.MeanLinear
+norm_linear: True
+out_dim: 1

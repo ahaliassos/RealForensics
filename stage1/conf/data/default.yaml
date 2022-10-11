@@ -1,0 +1,22 @@
+defaults:
+  - dataset: lrw
+  - channel: rgb
+  - crop_type: full_face
+n_fft: 512
+n_mels: 80
+audio2video: 4
+win_length: 320
+horizontal_flip_prob: 0.5
+num_frames: 25
+freq_mask: 27
+time_mask_video: 12
+time_mask_audio: 48
+n_freq_mask: 1
+n_time_mask_video: 1
+n_time_mask_audio: 1
+mask_version: v1
+time_mask_prob_video: 0.5
+time_mask_prob_audio: 0.5
+freq_mask_prob_audio: 0.5
+time_mask_targets: False
+clean_targets: True

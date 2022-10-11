@@ -1,0 +1,10 @@
+_target_: models.transformer.TransformerEncoder
+in_dim: ${model.projection_size}
+out_dim: ${model.projection_size}
+dim: 512
+heads: 8
+mlp_dim: 2048
+depth: 1
+dropout: 0
+use_mlp_head: True
+norm: bn

@@ -1,0 +1,2 @@
+_target_: models.prober.LinearProber
+out_features: 500

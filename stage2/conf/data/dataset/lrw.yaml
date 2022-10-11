@@ -1,0 +1,6 @@
+name: LRW500
+n_classes: 500
+train_len: 488763
+sample_rate: 16000
+fps: 25
+limit_val_batches: 1.0

@@ -1,0 +1,7 @@
+defaults:
+  - optim: adamp
+base_lr_video: 7e-4
+base_lr_audio: 7e-4
+base_lr_pred: 7e-4
+cosine_decay: False
+warmup_epochs: 5

@@ -1,0 +1,17 @@
+defaults:
+  - checkpoint: simple
+  - data: combined
+  - debug: no_debug
+  - logger: online
+  - logging: default
+  - model: combined
+  - optimizer: df_default
+  - trainer: train
+mode: sup
+only_df: False
+method: combined
+project_name: ff
+experiment_name:
+batch_size: 32
+num_workers: 8
+gpus:

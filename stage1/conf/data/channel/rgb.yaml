@@ -1,0 +1,12 @@
+obj:
+  _target_: pytorchvideo.transforms.Normalize
+  mean:
+    - 0.485
+    - 0.456
+    - 0.406
+  std:
+    - 0.229
+    - 0.224
+    - 0.225
+in_video_channels: 3
+grayscale_prob: 0.5

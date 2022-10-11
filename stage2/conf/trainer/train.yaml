@@ -1,0 +1,11 @@
+precision: 16
+accelerator: ddp
+profiler: ${debug.profiler}
+max_epochs: 150
+gpus: -1
+sync_batchnorm: True
+num_sanity_val_steps: 5
+limit_val_batches: 1.0
+accumulate_grad_batches: 1
+multiple_trainloader_mode: min_size
+val_check_interval: 1.0

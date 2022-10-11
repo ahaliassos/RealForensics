@@ -1,0 +1,25 @@
+name_ff: FaceForensics++
+name_cdf: CelebDF
+name_dfdc: dfdc
+max_frames_per_video: 270
+max_frames_per_video_val: 110
+ds_type: c23
+fps: 25
+videos_per_type: 720
+train_len: 6361
+aggregate_scores: False
+only_ff_val: False
+cdf_dfdc_test: False
+fake_types_train:
+  - Deepfakes
+  - FaceSwap
+  - Face2Face
+  - NeuralTextures
+types_val:
+  - Real
+  - Deepfakes
+  - FaceSwap
+  - Face2Face
+  - NeuralTextures
+  - FaceShifter
+  - DeeperForensics

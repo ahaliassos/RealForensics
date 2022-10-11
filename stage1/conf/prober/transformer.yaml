@@ -1,0 +1,9 @@
+_target_: models.prober.TransformerProber
+num_classes: 500
+num_frames: ${data.num_frames}
+dim: 256
+heads: 4
+mlp_dim: 256
+depth: 1
+dropout: 0
+norm: bn

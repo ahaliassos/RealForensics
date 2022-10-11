@@ -1,0 +1,3 @@
+monitor: acc_val_video_epoch
+mode: max
+dirpath:

@@ -1,0 +1,17 @@
+defaults:
+  - checkpoint: val_acc_video
+  - data: default
+  - debug: no_debug
+  - logger: online
+  - logging: default
+  - model: byolav
+  - prober: transformer
+  - optimizer: default
+  - trainer: train
+project_name: byolav
+experiment_name: 
+batch_size: 256
+batch_size_prober: ${batch_size}
+num_workers: 8
+replace_sampler_ddp: False
+gpus:

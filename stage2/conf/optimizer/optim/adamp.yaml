@@ -1,0 +1,4 @@
+obj:
+  _target_: adamp.AdamP
+  weight_decay: 1e-2
+scale_sqrt: True  # scaling with batch size

@@ -1,0 +1,15 @@
+defaults:
+  - visual_backbone: csn_r101
+  - audio_backbone: 2dresnet
+  - df_predictor: linear
+  - projector: linear
+  - predictor: transformer
+obj:
+  _target_: models.model_combined.ModelCombined
+projection_size: 256
+sync_batchnorm: True
+relative_bs: 8
+ssl_weight: 1.0
+logit_adj: True
+init_byolav: True
+weights_filename:

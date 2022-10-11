@@ -1,0 +1,2 @@
+_target_: models.mlps.MLPPredictorGlobal
+in_dim: ${model.projection_size}
