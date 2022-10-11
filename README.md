@@ -1,6 +1,6 @@
 # RealForensics
 ## Introduction
-We provide code for the reproduction of the main results in the paper [Leveraging Real Talking Faces via Self-Supervision for Robust Forgery Detection](https://arxiv.org/abs/2201.07131). Our implementation is based on 
+We provide code for the reproduction of the main results in [Leveraging Real Talking Faces via Self-Supervision for Robust Forgery Detection](https://arxiv.org/abs/2201.07131). Our implementation is based on 
 [PyTorch Lightning](https://www.pytorchlightning.ai/). 
 
 ## Preparation
@@ -101,3 +101,15 @@ trained on LRW (from stage 1) to `stage2/weights`.
     ```
     python stage2/train.py experiment_name=stage2_csn_150epochs batch_size=32 model.weights_filename=lrw_stage1_learning.pth
     ```
+
+## Citation
+If you find this repo useful for your research, please consider citing the following:
+```bibtex
+@inproceedings{haliassos2022leveraging,
+  title={Leveraging Real Talking Faces via Self-Supervision for Robust Forgery Detection},
+  author={Haliassos, Alexandros and Mira, Rodrigo and Petridis, Stavros and Pantic, Maja},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={14950--14962},
+  year={2022}
+}
+```
